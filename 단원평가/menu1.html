@@ -1,0 +1,125 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>menu1</title>
+</head>
+<body>
+  <center>
+    <form name = menber>
+      <font size=5 color="blue">
+        <b>회원가입</b>
+      </font>
+      <br>
+      <br>
+      <table border="1" cellpadding="10" width="700" height="170" bgcolor="fafdbb">
+        <tr>
+          <td colspan=2>
+            <p align="right">'
+              <font color="Red">*</font>' 표시는 필수입력 항목입니다.
+              <br>
+              <font color="green"> 허위 정보를 입력하신 경우 가입이 취소됩니다.</font>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <b>회원ID</b>
+          </td>
+          <td>
+            <input type="Text" name="1" size="10">
+            <input type="submit" name="ID중복확인" size="10" value="ID중복확인">&nbsp;영문소문자 혹은 숫자조합으로 4~10자</td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <B>비밀번호</b>
+          </td>
+          <td>
+            <input type="password" name="2" size="10"> 영문소문자 혹은 숫자조합으로 4~10자.</td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <B> 이름</b>
+          </td>
+          <td>
+            <input type="Text" name="3" size="10"> 실명으로 정확히 입력하여 주십시오.</td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <B>주민등록번호</b>
+          </td>
+          <td>
+            <input type="Text" name="4" size="10">-
+            <input type="Text" name="5" size="10"> (예: 900101-1234567)</td>
+        </tr>
+        <tr>
+          <td>
+            <b>생년월일</b>
+          </td>
+          <td>
+            <input type="Text" name="6" size="6">-
+            <input type="Text" name="7" size="6">-
+            <input type="Text" name="8" size="6">양력
+            <input type="radio" name="radio1" value="1-1">음력
+            <input type="radio" name="radio1" value="1-2"> (예: 2008-01-01)</td>
+        </tr>
+        <tr>
+          <td>
+            <B>휴대폰번호</b>
+          </td>
+          <td>
+            <input type="Text" name="9" size="6">-
+            <input type="Text" name="10" size="6">-
+            <input type="Text" name="11" size="6"> (예: 000-1234-5678)</td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <B>우편번호</b>
+          </td>
+          <td>
+            <input type="Text" name="12" size="5">-
+            <input type="Text" name="13" size="5">
+            <input type="submit" name="우편번호찾기" size="8" value="우편번호찾기">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <b>자택주소</b>
+          </td>
+          <td>
+            <input type="Text" name="14" size="25">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="Red">*</font>
+            <B>관심 분야</b>
+          </td>
+          <td>
+            <input type="checkbox" name="check1" value="1">정치&nbsp;
+            <input type="checkbox" name="check2" value="2">경제&nbsp;
+            <input type="checkbox" name="check3" value="3">교육&nbsp;
+            <input type="checkbox" name="check4" value="4">연예&nbsp;
+            <input type="checkbox" name="check5" value="5">요리&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <B>건의 사항</b>
+          </td>
+          <td>
+            <textarea name="1" rows="15" cols="70"></textarea>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <input type="submit" name="3" value="회원가입">&nbsp;
+      <input type="reset" name="4" value="재입력">
+    </form>
+  </center>
+</body>
+
+</html>
