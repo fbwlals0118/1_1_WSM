@@ -1,0 +1,34 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>링크 스타일</title>
+  <style type="text/css">
+
+  /* 기본으로 적용되는 링크 스타일 */
+  a:link{color:black; text-decoration:underline}
+  a:visited{color:red; text-decoration:none}
+  a:active{color:purple; text-decoration:none}
+  a:hover{color:blue; text-decoration:underline}
+  /* class를 사용할 때 적용되는 링크 스타일 */
+  .su a:hover{color:red; text-decoration:none}
+  td{border-style:double; background-color:white; text-align:center}
+
+  </style>
+ </head>
+ <body>
+<table width="500" height="50" border="1" align="center">
+	 <tr>
+		<td><a href="http://www.kkulmat.com" target="_blank">꿀맛닷컴</a></td>
+		<td><a href="http://www.daum.net" target="_blank">다음</a></td>
+		<td><a href="http://www.google.com" target="_blank">구글</a></td>
+		<td><a href="http://www.wooribank.com" target="_blank">우리은행</a></td>
+	</tr>
+	<tr class="su">
+		<td><a href="http://www.e-mirim.hs.kr" target="_blank">미림여고</a></td>
+		<td><a href="http://www.sys.hs.kr" target="_blank">서울여상</a></td>
+		<td><a href="http://www.sunrint.hs.kr" target="_blank">선린인터넷고등학교</a></td>
+		<td><a href="http://www.sungdong.hs.kr" target="_blank">성동고등학교</a></td>
+	</tr>
+</table>
+ </body>
+</html>
